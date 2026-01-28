@@ -5,13 +5,13 @@
 
 # Ignore compiled executables (Linux/WSL)
 *.out
-conv2d_seq
+conv2d_secv
 conv2d_omp
 conv2d_cuda
-dft_seq
+dft_secv
 dft_cpu
 dft_cuda
-gemm_seq
+gemm_secv
 gemm_cpu
 gemm_cuda
 gemm_cblas
@@ -38,6 +38,7 @@ __pycache__/
 *.fls
 *.fdb_latexmk
 *.dvi
+*.pdf
 
 # --- IDE and System Files ---
 .vscode/
