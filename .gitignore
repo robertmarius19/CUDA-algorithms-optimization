@@ -1,0 +1,46 @@
+# --- C++ and CUDA Binaries ---
+# Ignore object files
+*.o
+*.obj
+
+# Ignore compiled executables (Linux/WSL)
+*.out
+conv2d_seq
+conv2d_omp
+conv2d_cuda
+dft_seq
+dft_cpu
+dft_cuda
+gemm_seq
+gemm_cpu
+gemm_cuda
+gemm_cblas
+
+# Ignore Windows executables (just in case)
+*.exe
+
+# --- Benchmarking Results ---
+# We usually ignore CSVs so they don't clutter the history
+# (Remove this line if you WANT to save your results to GitHub)
+*.csv
+
+# --- Python ---
+__pycache__/
+*.pyc
+
+# --- LaTeX Intermediate Files ---
+# Keep .tex and .pdf, ignore the rest
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.dvi
+
+# --- IDE and System Files ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
